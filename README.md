@@ -9,8 +9,7 @@
   <p align="center">
     
     
-   ### Your go-to solution for effortlessly syncing schedules 
-   ### and finding the perfect time to connect with friends in our busy world.
+   ### Your ultimate scheduling ally, simplifying social coordination amidst busy lives.
     
     
   </p>
