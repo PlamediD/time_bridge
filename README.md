@@ -5,7 +5,7 @@
   </a>
 
   <h1 align="center"> Time Buddy </h1>
-  <h2> Your ultimate scheduling ally, simplifying social coordination amidst busy lives.</h2>
+  <h2 align="center"> Your ultimate scheduling ally, simplifying social coordination amidst busy lives.</h2>
 </p>
 
 
