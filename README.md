@@ -6,11 +6,9 @@
 
   <h3 align="center"> Time Buddy </h3>
 
-  <p align="center">
+  <p align="center">  
     
-    
-   ### Your ultimate scheduling ally, simplifying social coordination amidst busy lives.
-    
+   Your ultimate scheduling ally, simplifying social coordination amidst busy lives. 
     
   </p>
 </p>
