@@ -4,7 +4,7 @@
     
   </a>
 
-  <h3 align="center">A simple website to display pictures. </h3>
+  <h3 align="center">Time Buddy </h3>
 
   <p align="center">
     Journey through 2024: Capturing Moments, Creating Memories!
@@ -26,10 +26,11 @@
 
 ## About The Project
 
-Welcome to the Image Gallery Project – a dynamic, tech-savvy showcase of my visual journey through the year 2024. This project utilizes HTML, CSS, and JavaScript to create an interactive slideshow, 
-allowing users to seamlessly navigate through a curated collection of images, each accompanied by a unique description. 
-The responsive design ensures an optimal viewing experience across various devices. Whether it's capturing the essence of a Sunday service or embracing the candid moments of a family dinner, 
-this project encapsulates the memories that shaped my 2024. Explore the visual narrative, relive the highlights, and embark on a digital adventure through the lens of my experiences. Happy browsing!
+Welcome to the time buddy app- 
+Time Buddy is a sophisticated personal scheduling application designed to streamline the process of coordinating meetups with friends and colleagues. It is your trusted companion in managing your time effectively and enhancing your social interactions.
+
+Problem Statement:
+In today's fast-paced world, individuals lead increasingly busy lives, making synchronizing schedules with friends and acquaintances challenging. Time Buddy addresses this issue by providing a user-friendly platform for aligning conflicting schedules and facilitating seamless event planning.
 
 
 
