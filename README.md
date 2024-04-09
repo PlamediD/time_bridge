@@ -9,6 +9,7 @@
   <p align="center">
     
     <br/>
+    Your go-to solution for effortlessly syncing schedules and finding the perfect time to connect with friends in our busy world."
     <br/>
     
   </p>
@@ -36,15 +37,7 @@ In today's fast-paced world, individuals lead increasingly busy lives, making sy
 
 ## Built With
 
-![firebase](https://github.com/PlamediD/time_bridge/assets/87151146/a226c8c0-a8e9-4ea7-a44b-afe8430df1fa)
-
-![android studio](https://github.com/PlamediD/time_bridge/assets/87151146/7dd23637-973b-42ad-bc75-c23076091f73)
-
-
-![dart](https://github.com/PlamediD/time_bridge/assets/87151146/90dddefc-9e92-4e07-99c2-8c3e33543e4b)
-
-
-![flutter](https://github.com/PlamediD/time_bridge/assets/87151146/7f3a2151-16e7-4ce6-a046-a2d5955bbb41)
+![firebase](https://github.com/PlamediD/time_bridge/assets/87151146/a226c8c0-a8e9-4ea7-a44b-afe8430df1fa)![android studio](https://github.com/PlamediD/time_bridge/assets/87151146/7dd23637-973b-42ad-bc75-c23076091f73![dart](https://github.com/PlamediD/time_bridge/assets/87151146/90dddefc-9e92-4e07-99c2-8c3e33543e4b)![flutter](https://github.com/PlamediD/time_bridge/assets/87151146/7f3a2151-16e7-4ce6-a046-a2d5955bbb41)
 
 
 
