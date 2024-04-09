@@ -4,13 +4,13 @@
     
   </a>
 
-  <h3 align="center">Time Buddy </h3>
+  <h3 align="center">#Time Buddy </h3>
 
   <p align="center">
     
-    <br/>
-    Your go-to solution for effortlessly syncing schedules and finding the perfect time to connect with friends in our busy world.
-    <br/>
+    
+    ###Your go-to solution for effortlessly syncing schedules and finding the perfect time to connect with friends in our busy world.
+    
     
   </p>
 </p>
