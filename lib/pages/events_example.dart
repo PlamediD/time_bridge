@@ -1,10 +1,8 @@
-// Copyright 2019 Aleksander Woźniak
-// SPDX-License-Identifier: Apache-2.0
-
 import 'package:flutter/material.dart';
 import 'package:table_calendar/table_calendar.dart';
 
 import '../utils.dart';
+import '../widgets/add_event_dialog.dart';
 
 class TableEventsExample extends StatefulWidget {
   @override
@@ -82,6 +80,17 @@ class _TableEventsExampleState extends State<TableEventsExample> {
     }
   }
 
+  void _addEvent(DateTime selectedDay, String eventName) {
+  // Add the event to the selected day
+  addEvent(selectedDay, Event(eventName));
+  // Update the events list for the selected day
+  setState(() {
+    _selectedEvents.value = _getEventsForDay(selectedDay);
+    _selectedDay = selectedDay;
+  });
+}
+
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -133,55 +142,13 @@ class _TableEventsExampleState extends State<TableEventsExample> {
                         padding: const EdgeInsets.all(8.0),
                         child: ElevatedButton(
                           onPressed: () {
-                            // Show a dialog for adding an event
+                            // Show the add event dialog
                             showDialog(
                               context: context,
                               builder: (BuildContext context) {
-                                TextEditingController _eventController =
-                                    TextEditingController();
-                                return AlertDialog(
-                                  title: Text('Add Event'),
-                                  content: TextFormField(
-                                    controller: _eventController,
-                                    decoration: InputDecoration(
-                                        labelText: 'Event Name'),
-                                  ),
-                                  actions: <Widget>[
-                                    TextButton(
-                                      onPressed: () {
-                                        Navigator.of(context).pop();
-                                      },
-                                      child: Text('Cancel'),
-                                    ),
-                                    ElevatedButton(
-                                      onPressed: () {
-                                        String eventName =
-                                            _eventController.text.trim();
-                                        if (eventName.isNotEmpty) {
-                                          // Add the event to the selected day
-                                          addEvent(
-                                              _selectedDay!, Event(eventName));
-                                          // Refresh the events list
-                                          _selectedEvents.value =
-                                              _getEventsForDay(_selectedDay!);
-                                          // Clear the event name field
-                                          _eventController.clear();
-                                          // Close the dialog
-                                          Navigator.of(context).pop();
-                                        } else {
-                                          ScaffoldMessenger.of(context)
-                                              .showSnackBar(
-                                            SnackBar(
-                                              content: Text(
-                                                  'Please enter an event name'),
-                                              duration: Duration(seconds: 2),
-                                            ),
-                                          );
-                                        }
-                                      },
-                                      child: Text('Add'),
-                                    ),
-                                  ],
+                                return AddEventDialog(
+                                  selectedDay: _selectedDay!,
+                                  onEventAdded: _addEvent,
                                 );
                               },
                             );
